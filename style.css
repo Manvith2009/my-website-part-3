@@ -1,0 +1,49 @@
+h1{
+    color:#0400ff;
+}
+
+body{
+    background-color: #29ccd6;
+}
+
+.header{
+   background-color:#fbff00; 
+   display:flex;
+   justify-content: space-between;
+   padding-right: 50px;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+a:link{
+    color:orange
+}
+
+a:visited{
+    color:orange
+}
+
+.item{
+    position:relative;
+    margin-top: 40px;
+}
+
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
